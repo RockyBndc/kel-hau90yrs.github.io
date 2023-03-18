@@ -1,0 +1,330 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;500&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: #121212;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    text-align: justify;
+}
+h1{
+    font-size: 70px;
+    line-height: 72px;
+    color: #edb82a;
+    font-weight: 500;
+}
+h2{
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+}
+h3{
+    font-size: 48px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: #edb82a;
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: 100;
+    color: white;
+}
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+.mask-custom {
+    backdrop-filter: blur(50px);
+    background-color: #73221679;
+  }
+header .nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+header .nav-link:hover{
+    color: #edb82a;
+    font-weight: 300px;
+}
+header .nav-link:active{
+    color: #edb82a;
+    font-weight: 300px;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#herocontent {
+    background: url("images/cover-photo.png") repeat scroll center center/cover;
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+#hero .hero-content {
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content button{
+    margin-top: 60px;
+    background-color: #edb82a;
+    color: #732316;
+    opacity: 80%;
+    border-radius: 2px;
+    width: 110px;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.hero-content button:hover{
+    color: white;
+    background-color: #732316;
+    opacity: 100%;
+}
+/*--------------------------------------------------------------
+# About: History
+--------------------------------------------------------------*/
+.about-history{
+    margin-top: 80px;
+}
+.HAA-1945{
+    height: 270px;
+}
+.HAC-1961{
+    height: 270px;
+    margin-top: -80px;
+    float: right;
+    position: relative;
+    
+}
+.HAU-present{
+    width: 530px;
+}
+/*--------------------------------------------------------------
+# About: Luid
+--------------------------------------------------------------*/
+.about-luid{
+    background-color: #732316;
+    color: white;
+    padding: 20px;
+}
+.luid-90{
+    height: 480px;
+}
+.luid{
+    color: #edb82a;
+    font-weight: 500;
+}
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+section.events{
+    background-color: #F5F6FA;
+}
+.event2{
+    margin-top: 50px;
+}
+h5.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #732316;
+}
+.recent-events{
+    margin-top: 50px;
+}
+.card-text{
+    margin-top: -10px;
+}
+
+a.event-link{
+    color: #732316;
+}
+
+a.event-link:hover{
+    color: #732316;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.showMore{
+    padding: 50px;
+}
+
+.showMore a button{
+    font-family: 'Roboto', sans-serif;
+  background-color: #edb82a;
+  color: #732316;
+  width: 110px;
+  margin-top: -50px;
+  
+}
+
+.showMore a button:hover{
+  color: #edb82a;
+  background-color: #732316;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery{
+    margin-top: 80px;
+}
+.tz-gallery{
+    margin-top: 50px;
+}
+/*--------------------------------------------------------------
+# Parallax Scroll
+--------------------------------------------------------------*/
+.parallax-scroll{
+    margin-top: 80px;
+}
+.parallax-content{
+    background: url(images/parallax-pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 30vh;
+    margin: 0 auto; 
+    position: relative;  
+}
+h3.para-num{
+    font-size: 48px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+h5.para-name{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #edb82a;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
+.testimonial{
+    margin-top: 80px;
+}
+.testimonial-content{
+    margin-top: 50px;
+}
+.testimonial-card{
+    margin: 0px 0px 35px 0px;
+	overflow: hidden;
+	min-height: 390px;
+	background: #fff;
+	-moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.testimonial-card:hover {
+	-webkit-transform: translate(0, -8px);
+	-moz-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	-o-transform: translate(0, -8px);
+    background: #732316;
+    color: white;
+	transform: translate(0, -8px);
+	box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+.bi-quote{
+    font-size: 50px;
+    margin-top: -55px;
+    position: absolute;
+    color: #edb82a;
+}
+.testimonial p.card-text{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+.testimonial h4.card-title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.testimonial p.card-small-text{
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: left;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer{
+    margin-top: 80px;
+}
+.bg-footer {
+    background-color: #732316;
+    padding: 50px 0 0px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #edb82a;
+    text-decoration: none;
+}
+
+.contact-info {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-heading {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 55px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 2px solid #edb82a;
+}
+.footer-2{
+    background: #edb82a;
+    color: #732316;
+}
+.footer-alt{
+    padding: 10px;
+}
